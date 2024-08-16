@@ -1,4 +1,8 @@
+/**
+ * Два потока, поочередно печатают в консоль.
+ */
 public class TicTac {
+
     public static void main(String[] arguments) {
         Object synchronizator = new Object();
         Runnable left = new Runnable() {
